@@ -1,0 +1,72 @@
+/*ALL*/
+* {
+    font-family: 'ROBOTO LIGHT';
+}
+
+body {
+    background-color: #fff;
+}
+/*END ALL*/
+
+/*NAVIGATION*/
+#navigation{
+    border-top: 4px solid orange;
+}
+/*END NAVIGATION*/
+
+/*HEADER*/
+#carouselHeader{
+    height: 100vh;
+    margin-bottom: 25px;
+}
+#carousel-img{
+    height: 100vh;
+}
+/*END HEADER*/
+
+/*SECTION*/
+/*END SECTION*/
+
+/*FOOTER*/
+#footer {
+    background-color: #222222;
+    color: #CCCCCC;
+    padding: 40px 40px 0 40px;
+    margin-top: 25px;
+    border-top: 4px solid orange;
+}
+
+#footer a{
+    color: #FFFFFF;
+}
+
+#footer a:hover{
+    color: #4CAF50;
+    text-decoration: none;
+    transition: all 500ms ease-in-out!important;
+}
+
+#footer-social {
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 35px;
+    width: 35px;
+    margin: 0 2px 5px 0;
+    padding-top: 8px;
+    text-align: center;
+}
+
+#footer-social:hover {
+    color: #02AAB0 !important;
+    background-color: #FFFFFF;
+    transition: all 500ms ease-in-out;
+}
+
+#footer-copyright {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+/*END FOOTER*/
