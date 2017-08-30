@@ -11,37 +11,50 @@ body {
 /*NAVIGATION*/
 #navigation{
     border-top: 4px solid orange;
-    -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0, 0.3);
-    -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0, 0.3);
-    box-shadow: 0px 5px 10px 0px rgba(0,0,0, 0.3);
+    -webkit-box-shadow: 0px 4px 16px 0px rgba(0,0,0, 0.15);
+    -moz-box-shadow: 0px 4px 16px 0px rgba(0,0,0, 0.15);
+    box-shadow: 0px 4px 16px 0px rgba(0,0,0, 0.15);
+    padding-left: 100px;
 }
 
 #navigation .navbar-brand{
     font-family: 'Fredoka One';
+    color: #2962FF;
 }
+
 /*END NAVIGATION*/
 
 /*HEADER*/
-#header{
-    margin: 60px 0 20px 0;
+.header{
+    margin: 60px 0 0 0;
     text-align: center;
     padding: 200px 0px;
     background: #02AAB0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #00CDAC, #02AAB0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*
+    background: linear-gradient(to right, #00CDAC, #02AAB0);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+*/
+    background-image: url('assests/img/sky.png');
 }
 
-#header h1{
+.header h1{
     font-size: 100px;
     font-family: 'Segoe UI Black', fantasy;
-    color: white;
+    color: #2962FF;
+    margin-bottom: 20px;
+}
+
+.header h4{
+    font-size: 30px;
+    font-family: 'Segoe UI Black', fantasy;
+    color: #2962FF;
     margin-bottom: 50px;
 }
 
-#header .btn{
+.header a{
     border-radius: 0px;
-    border: 3px solid white;
-    color: white;
+    border: 3px solid #2962FF;
+    color: #2962FF;
     font-family: 'Fredoka One';
     font-size: 25px;
     width: 250px;
@@ -49,14 +62,38 @@ body {
     text-decoration: none;
 }
 
-#header .btn:hover{
-    background-color: white;
-    color: #00BFA5;
+.header a:hover{
+    background-color: #2962FF;
+    color: white;
     transition: all ease-in-out 500ms;
 }
+
+/*Particles*/
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url("https://static.pexels.com/photos/14676/pexels-photo-14676.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
 /*END HEADER*/
 
 /*SECTION*/
+.section{
+    border: 3px solid orange;
+    height: 400px;
+}
 /*END SECTION*/
 
 /*FOOTER*/
@@ -64,7 +101,6 @@ body {
     background-color: #222222;
     color: #CCCCCC;
     padding: 40px 40px 0 40px;
-    margin-top: 25px;
     border-top: 4px solid orange;
 }
 
