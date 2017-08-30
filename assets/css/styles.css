@@ -16,18 +16,43 @@ body {
     box-shadow: 0px 5px 10px 0px rgba(0,0,0, 0.3);
 }
 
-#navigation a{
+#navigation .navbar-brand{
     font-family: 'Fredoka One';
 }
 /*END NAVIGATION*/
 
 /*HEADER*/
-#carouselHeader{
-    height: 100vh;
-    margin-bottom: 25px;
+#header{
+    margin: 60px 0 20px 0;
+    text-align: center;
+    padding: 200px 0px;
+    background: #02AAB0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00CDAC, #02AAB0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-#carousel-img{
-    height: 100vh;
+
+#header h1{
+    font-size: 100px;
+    font-family: 'Segoe UI Black', fantasy;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#header .btn{
+    border-radius: 0px;
+    border: 3px solid white;
+    color: white;
+    font-family: 'Fredoka One';
+    font-size: 25px;
+    width: 250px;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+
+#header .btn:hover{
+    background-color: white;
+    color: #00BFA5;
+    transition: all ease-in-out 500ms;
 }
 /*END HEADER*/
 
