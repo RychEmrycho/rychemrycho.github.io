@@ -8,6 +8,7 @@ body {
 }
 /*END ALL*/
 
+@media (min-height) {
 /*NAVIGATION*/
 #navigation{
     -webkit-box-shadow: 0px 4px 16px 0px rgba(0,0,0, 0.15);
@@ -140,7 +141,7 @@ body {
     width: 100%;
 }
 /*END FOOTER*/
-
+} 
 
 /*MEDIA QUERIES*/
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
