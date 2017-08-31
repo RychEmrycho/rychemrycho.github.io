@@ -87,17 +87,23 @@ body {
 
 /*SECTION*/
 .section{
-    border: 3px solid orange;
     height: 400px;
 }
 /*END SECTION*/
 
 /*FOOTER*/
+#footer-triangle{
+    text-align: center;
+    margin-bottom: -10px;
+    padding: 0px;
+}
+
 #footer {
     background-color: #222222;
     color: #CCCCCC;
     padding: 40px 40px 0 40px;
-    border-top: 4px solid orange;
+    margin-top: 0px;
+    border: 0px;
 }
 
 #footer a{
@@ -105,7 +111,7 @@ body {
 }
 
 #footer a:hover{
-    color: #4CAF50;
+    color: #2962FF;
     text-decoration: none;
     transition: all 500ms ease-in-out!important;
 }
@@ -134,3 +140,13 @@ body {
     width: 100%;
 }
 /*END FOOTER*/
+
+
+/*MEDIA QUERIES*/
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 768px) {
+    #header {
+        background-attachment: scroll;
+    }
+}
+
